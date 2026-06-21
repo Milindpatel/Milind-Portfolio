@@ -16,15 +16,8 @@
         "Manage resourcing, hiring, and performance development to build a high-performing, collaborative engineering team."
       ],
       "tech": [
-        "ASP.NET Core",
-        "C#",
-        "Azure DevOps",
-        "Angular",
-        "React",
-        "MS SQL Server",
-        "CI/CD",
-        "Agile / Scrum",
-        "Team Leadership"
+        "ASP.NET Core", "C#", "Azure DevOps", "Angular", "React",
+        "MS SQL Server", "CI/CD", "Agile / Scrum", "Team Leadership"
       ]
     },
     {
@@ -43,18 +36,82 @@
         "Analyzed functional requirements and delivered design solutions using the latest .NET framework with MS SQL Server."
       ],
       "tech": [
-        "ASP.NET Core",
-        "ASP.NET Framework",
-        "C#",
-        "MS SQL Server",
-        "Azure DevOps",
-        "Angular 12",
-        "React 18",
-        "JavaScript",
-        "JSON",
-        "HTML5",
-        "CSS3",
-        "T-SQL"
+        "ASP.NET Core", "ASP.NET Framework", "C#", "MS SQL Server", "Azure DevOps",
+        "Angular 12", "React 18", "JavaScript", "JSON", "HTML5", "CSS3", "T-SQL"
+      ]
+    },
+    {
+      "company": "Speridian Technologies",
+      "title": ".NET Developer",
+      "location": "Toronto",
+      "startDate": "August 2021",
+      "endDate": "July 2022",
+      "bullets": [
+        "Worked within an Agile team across all phases of the software development lifecycle, delivering solutions to complex business problems.",
+        "Designed automation processes and SQL jobs to generate data based on RabbitMQ integration.",
+        "Designed and developed web applications using Angular 11 and .NET 5.",
+        "Updated Telerik Kendo UI controls to accelerate development and focus on value-generating features.",
+        "Set up and configured Microsoft Azure cloud computing platform components.",
+        "Designed stored procedures with SQL triggers to implement system-wide audit logging."
+      ],
+      "tech": [
+        "ASP.NET Core", "ASP.NET Framework", "C#", "Angular 11", ".NET 5",
+        "MS SQL Server", "Azure DevOps", "JavaScript", "JSON", "HTML5", "CSS3", "T-SQL"
+      ]
+    },
+    {
+      "company": "Invesco Enterprise Services",
+      "title": "Software Engineer",
+      "location": "Charlottetown",
+      "startDate": "March 2020",
+      "endDate": "August 2021",
+      "bullets": [
+        "Collaborated with Product Owners and Scrum Masters to translate user stories into process flows built with the AWD BPM tool.",
+        "Designed automation processes for data filtering using XML logic and Mobius Document Direct.",
+        "Built robust user interfaces for custom applications on a modern .NET backend.",
+        "Created multiple parameterized stored procedures to power reporting and data retrieval.",
+        "Developed SSIS packages and DTS import/export routines to transfer data from SQL Server to client-side destinations.",
+        "Built reusable SSIS packages to extract data from flat files, Excel, and XML sources into SQL Server."
+      ],
+      "tech": [
+        "ASP.NET", "C#", "AWD BPM", "MS SQL Server", "SSIS", "Oracle",
+        "Jira / Confluence", "JavaScript", "JSON", "HTML5", "CSS3", "T-SQL"
+      ]
+    },
+    {
+      "company": "Bell Canada (MSI Corp)",
+      "title": "Software Developer",
+      "location": "Toronto",
+      "startDate": "July 2019",
+      "endDate": "Dec 2019",
+      "bullets": [
+        "Partnered with business analysts to capture data requirements through process blueprints and Visio diagrams.",
+        "Analyzed and designed business process automation using the IBM BPM 8.5 tool.",
+        "Built world-class web application interfaces using Angular and an ASP.NET Core backend.",
+        "Developed Business Process Definitions (BPDs) from business requirements and deployed them to test environments.",
+        "Tested and validated BPDs with positive and negative test cases, comparing expected and actual results through manual and automated testing."
+      ],
+      "tech": [
+        "IBM BPM 8.5", "Oracle", "Jira / Confluence", "Microsoft Visio", "HTML5",
+        "CSS3", "JavaScript", "Angular", "ASP.NET Core", "C#", "MS SQL Server"
+      ]
+    },
+    {
+      "company": "Zerothcode Inc.",
+      "title": "Senior Software Developer",
+      "location": "Toronto, Canada / Anand, India",
+      "startDate": "Dec 2015",
+      "endDate": "July 2019",
+      "bullets": [
+        "Contributed as a core team member across design, coding, testing, and debugging operations.",
+        "Served in a client-facing role, translating business requirements into scalable, viable solutions.",
+        "Developed School ERP software that streamlined resource planning and reduced back-office workload through process automation.",
+        "Supported scope definition, planning, estimation, and tracking for API and application development.",
+        "Trained and mentored junior team members, leading the team to maximize business value and achieve IT goals."
+      ],
+      "tech": [
+        "HTML5", "CSS3", "ASP.NET MVC", "ASP.NET Core Web API", "C#",
+        "Angular", "MS SQL Server", "JavaScript", "Bootstrap 3"
       ]
     }
   ]

@@ -235,11 +235,16 @@ function applyOverrides(data: PortfolioData): PortfolioData {
   if (ov.projects)       data.projects = ov.projects
 
   if (Array.isArray(ov.experience)) {
-    // Match by company + title so promotions (same company, new title) can both
-    // modify the old role and add the new one. A patch with no match is prepended.
+    // Match an existing role by company + startDate (a stable key), so a patch can
+    // freely rewrite its title/bullets without creating a duplicate. Falls back to
+    // company + title, then company alone. An unmatched patch is prepended as a new
+    // role — this is how a promotion (same company, later startDate) is added.
     for (const patch of ov.experience as Experience[]) {
-      const idx = data.experience.findIndex(
-        e => e.company === patch.company && (!patch.title || e.title === patch.title),
+      const idx = data.experience.findIndex(e =>
+        e.company === patch.company &&
+        (patch.startDate ? e.startDate === patch.startDate
+          : patch.title ? e.title === patch.title
+            : true),
       )
       if (idx >= 0) data.experience[idx] = { ...data.experience[idx], ...patch }
       else data.experience.unshift(patch)

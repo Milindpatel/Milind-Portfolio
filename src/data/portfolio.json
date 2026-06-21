@@ -72,18 +72,19 @@
       "startDate": "August 2021",
       "endDate": "July 2022",
       "bullets": [
-        "Involving in agile methodology and undergone in all phases of software development life cycle and proposed solution to the business problem.",
-        "Design the automation process and SQL jobs to generate the data, based on the Rabbit MQ integration.",
-        "Leverage latest technologies to Design and Developed web application with Angular 11 and .NET 5 integration.",
-        "Involved in updating the Telerik Kendo UI controls for building the application enabling to focus on value generating development tasks.",
-        "Involved in setting up and configuring Microsoft Azure cloud computing platform components.",
-        "Involved in designing the stored procedure with SQL Triggers to set up the Audit log in the system."
+        "Worked within an Agile team across all phases of the software development lifecycle, delivering solutions to complex business problems.",
+        "Designed automation processes and SQL jobs to generate data based on RabbitMQ integration.",
+        "Designed and developed web applications using Angular 11 and .NET 5.",
+        "Updated Telerik Kendo UI controls to accelerate development and focus on value-generating features.",
+        "Set up and configured Microsoft Azure cloud computing platform components.",
+        "Designed stored procedures with SQL triggers to implement system-wide audit logging."
       ],
       "tech": [
         "ASP.NET Core",
-        "ASP.NET Frameworks",
+        "ASP.NET Framework",
         "C#",
-        "Angular 2+ (Angular 11)",
+        "Angular 11",
+        ".NET 5",
         "MS SQL Server",
         "Azure DevOps",
         "JavaScript",
@@ -94,27 +95,27 @@
       ]
     },
     {
-      "title": "Engineer, Engineering Distribution",
+      "title": "Software Engineer",
       "company": "Invesco Enterprise Services",
       "location": "Charlottetown",
       "startDate": "March 2020",
       "endDate": "August 2021",
       "bullets": [
-        "Frequently interact with Product Owners and Scrum Master to understand user stories and workflow before construct or update the process flows through AWD BPM tool.",
-        "Design the automation process for data filtering through XML logics and Mobius Document Direct.",
-        "Leverage modern framework and tool like .NET for the backend to build world class user interface for custom application.",
-        "Involved in creating multiple parameterized stored procedure which were used by the reports to get the data.",
-        "Worked on SSIS package. DTS import-export for transferring data from SQL server to desired client-side location for further extraction.",
-        "created SSIS Reusable Packages to extract data from Multi formatted Flat files, Excel, XML files into SQL Server."
+        "Collaborated with Product Owners and Scrum Masters to translate user stories into process flows built with the AWD BPM tool.",
+        "Designed automation processes for data filtering using XML logic and Mobius Document Direct.",
+        "Built robust user interfaces for custom applications on a modern .NET backend.",
+        "Created multiple parameterized stored procedures to power reporting and data retrieval.",
+        "Developed SSIS packages and DTS import/export routines to transfer data from SQL Server to client-side destinations.",
+        "Built reusable SSIS packages to extract data from flat files, Excel, and XML sources into SQL Server."
       ],
       "tech": [
         "ASP.NET",
         "C#",
         "AWD BPM",
         "MS SQL Server",
-        "SQL Server Integration Services (SSIS)",
+        "SSIS",
         "Oracle",
-        "Jira confluence",
+        "Jira / Confluence",
         "JavaScript",
         "JSON",
         "HTML5",
@@ -123,55 +124,55 @@
       ]
     },
     {
-      "title": "Developer",
+      "title": "Software Developer",
       "company": "Bell Canada (MSI Corp)",
       "location": "Toronto",
       "startDate": "July 2019",
       "endDate": "Dec 2019",
       "bullets": [
-        "Working closely with business analysts to identify data requirements through blueprints for each activity in the process diagrams (Visio Diagrams)",
-        "Providing analysis and design for automating the business process using IBM BPM 8.5 Tool.",
-        "Leverage modern JavaScript frameworks such as Angular and ASP.NET Core for the backend to build world-class user interface for a web application.",
-        "Developing BPD on the business request and deploy in the testing environment.",
-        "Testing workflow and validation of BPD, performing positive and negative tests and comparing expected results with testing result logs (Manual testing and Automated testing)"
+        "Partnered with business analysts to capture data requirements through process blueprints and Visio diagrams.",
+        "Analyzed and designed business process automation using the IBM BPM 8.5 tool.",
+        "Built world-class web application interfaces using Angular and an ASP.NET Core backend.",
+        "Developed Business Process Definitions (BPDs) from business requirements and deployed them to test environments.",
+        "Tested and validated BPDs with positive and negative test cases, comparing expected and actual results through manual and automated testing."
       ],
       "tech": [
         "IBM BPM 8.5",
         "Oracle",
-        "Jira confluence",
+        "Jira / Confluence",
         "Microsoft Visio",
         "HTML5",
         "CSS3",
         "JavaScript",
-        "Angular 2+",
+        "Angular",
         "ASP.NET Core",
         "C#",
         "MS SQL Server"
       ]
     },
     {
-      "title": "Sr. Software Developer",
+      "title": "Senior Software Developer",
       "company": "Zerothcode Inc.",
-      "location": "Toronto, Canada/Anand, India",
+      "location": "Toronto, Canada / Anand, India",
       "startDate": "Dec 2015",
       "endDate": "July 2019",
       "bullets": [
-        "Worked as a productive and positive team member to design, code, test, report, and debug operations.",
-        "Served in a Client-facing role translating business requirements into viable and scalable solutions.",
-        "Developed School ERP software to help schools to plan how to use their resources and manage processes effectively and efficiently. Reducing back-office work by creating the automation process.",
-        "Assist in scope definition, planning, estimation and tracking of API Development and Application Development.",
-        "Train and mentor junior IT Members and lead the team to ensure that business value is maximized and IT goal achieved."
+        "Contributed as a core team member across design, coding, testing, and debugging operations.",
+        "Served in a client-facing role, translating business requirements into scalable, viable solutions.",
+        "Developed School ERP software that streamlined resource planning and reduced back-office workload through process automation.",
+        "Supported scope definition, planning, estimation, and tracking for API and application development.",
+        "Trained and mentored junior team members, leading the team to maximize business value and achieve IT goals."
       ],
       "tech": [
         "HTML5",
         "CSS3",
         "ASP.NET MVC",
-        "ASP.NET CORE Restful API",
+        "ASP.NET Core Web API",
         "C#",
-        "Angular 2+",
-        "MSSQL",
+        "Angular",
+        "MS SQL Server",
         "JavaScript",
-        "Bootstrap3."
+        "Bootstrap 3"
       ]
     }
   ],
@@ -266,5 +267,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-21T21:42:06.562Z"
+  "lastUpdated": "2026-06-21T21:47:20.724Z"
 }
