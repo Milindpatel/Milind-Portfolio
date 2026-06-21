@@ -4,9 +4,10 @@ interface LayoutProps {
   name: string
   links: { label: string; href: string }[]
   children: React.ReactNode
+  footerExtra?: React.ReactNode
 }
 
-export default function Layout({ name, links, children }: LayoutProps) {
+export default function Layout({ name, links, children, footerExtra }: LayoutProps) {
   const [active, setActive]     = useState('')
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrollPct, setScrollPct] = useState(0)
@@ -114,7 +115,11 @@ export default function Layout({ name, links, children }: LayoutProps) {
       <footer className="bg-gray-950 border-t border-gray-800/50 text-gray-500 text-sm py-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p>© {new Date().getFullYear()} {name}</p>
-          <p className="text-gray-600">Built with React · Vite · Tailwind CSS</p>
+          <div className="flex items-center gap-4">
+            <p className="text-gray-600">Built with React · Vite · Tailwind CSS</p>
+            {footerExtra && <span className="text-gray-700" aria-hidden="true">·</span>}
+            {footerExtra}
+          </div>
         </div>
       </footer>
     </>

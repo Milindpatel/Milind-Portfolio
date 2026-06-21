@@ -10,6 +10,8 @@ import Projects from './components/Projects'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import ResumeUpload, { STORAGE_KEY } from './components/ResumeUpload'
+import AdminLogin from './components/AdminLogin'
+import { isAdminSession, setAdminSession } from './lib/auth'
 
 const defaultData = builtIn as PortfolioData
 
@@ -23,6 +25,8 @@ function loadInitial(): { data: PortfolioData; custom: boolean } {
 
 export default function App() {
   const [{ data: portfolio, custom }, setState] = useState(loadInitial)
+  const [isAdmin, setIsAdmin] = useState(isAdminSession)
+  const [loginOpen, setLoginOpen] = useState(false)
 
   // Typewriter roles come straight from the résumé's job titles.
   const roles = Array.from(
@@ -40,8 +44,23 @@ export default function App() {
     { label: 'Contact',    href: '#contact' },
   ].filter(Boolean) as { label: string; href: string }[]
 
+  function logout() {
+    setAdminSession(false)
+    setIsAdmin(false)
+  }
+
+  const adminControl = isAdmin ? (
+    <button onClick={logout} className="text-gray-500 hover:text-gray-300 transition-colors">
+      Logout
+    </button>
+  ) : (
+    <button onClick={() => setLoginOpen(true)} className="text-gray-600 hover:text-gray-400 transition-colors">
+      Admin
+    </button>
+  )
+
   return (
-    <Layout name={portfolio.name} links={links}>
+    <Layout name={portfolio.name} links={links} footerExtra={adminControl}>
       <Hero name={portfolio.name} roles={roles} contact={portfolio.contact} />
       <About summary={portfolio.summary} />
       <Experience experience={portfolio.experience} />
@@ -49,11 +68,21 @@ export default function App() {
       {portfolio.projects.length > 0 && <Projects projects={portfolio.projects} />}
       <Education education={portfolio.education} certifications={portfolio.certifications} />
       <Contact contact={portfolio.contact} />
-      <ResumeUpload
-        onUpdate={data => setState({ data, custom: true })}
-        isCustom={custom}
-        onReset={() => setState({ data: defaultData, custom: false })}
-      />
+
+      {isAdmin && (
+        <ResumeUpload
+          onUpdate={data => setState({ data, custom: true })}
+          isCustom={custom}
+          onReset={() => setState({ data: defaultData, custom: false })}
+        />
+      )}
+
+      {loginOpen && (
+        <AdminLogin
+          onClose={() => setLoginOpen(false)}
+          onSuccess={() => { setIsAdmin(true); setLoginOpen(false) }}
+        />
+      )}
     </Layout>
   )
 }
