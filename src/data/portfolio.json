@@ -40,23 +40,23 @@
       "company": "Rexall",
       "location": "Toronto",
       "startDate": "July 2022",
-      "endDate": "Dec 2025",
+      "endDate": "Jan 2026",
       "bullets": [
-        "Worked in highly collaborative operations team to streamline the process of implementing security confidential Azure cloud environment and introduced best practices for remediation.",
-        "Involved in setting up and configuring Microsoft Azure and AWS cloud computing platform components.",
-        "Creating code drops/patches for deployment in pre-production and production environment for applications within secure system.",
-        "Co-ordinate with external team members and other stake holders to understand the impact of their changes to complete release work.",
-        "Performing code merge activities for different ASP.NET C# applications.",
-        "Helping developers to resolve any technical issue, troubleshooting, project Risk and Issue identification and management.",
-        "Analyze functional requirements and provide design solution with latest .NET framework with MS SQL database."
+        "Streamlined the implementation of a security-confidential Azure cloud environment within a highly collaborative operations team, introducing best practices for remediation.",
+        "Set up and configured Microsoft Azure and AWS cloud computing platform components.",
+        "Created code drops and patches for deployment across pre-production and production environments within secure systems.",
+        "Coordinated with external teams and stakeholders to assess the impact of changes and complete release work.",
+        "Performed code-merge activities across multiple ASP.NET C# applications.",
+        "Supported developers with troubleshooting and technical issues, and led project risk and issue identification and management.",
+        "Analyzed functional requirements and delivered design solutions using the latest .NET framework with MS SQL Server."
       ],
       "tech": [
         "ASP.NET Core",
-        "ASP.NET Frameworks",
+        "ASP.NET Framework",
         "C#",
         "MS SQL Server",
         "Azure DevOps",
-        "Angular 2+ (Angular 12)",
+        "Angular 12",
         "React 18",
         "JavaScript",
         "JSON",
@@ -266,5 +266,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-21T21:38:49.272Z"
+  "lastUpdated": "2026-06-21T21:42:06.562Z"
 }

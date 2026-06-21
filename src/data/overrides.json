@@ -30,7 +30,32 @@
     {
       "company": "Rexall",
       "title": "Lead Developer",
-      "endDate": "Dec 2025"
+      "location": "Toronto",
+      "startDate": "July 2022",
+      "endDate": "Jan 2026",
+      "bullets": [
+        "Streamlined the implementation of a security-confidential Azure cloud environment within a highly collaborative operations team, introducing best practices for remediation.",
+        "Set up and configured Microsoft Azure and AWS cloud computing platform components.",
+        "Created code drops and patches for deployment across pre-production and production environments within secure systems.",
+        "Coordinated with external teams and stakeholders to assess the impact of changes and complete release work.",
+        "Performed code-merge activities across multiple ASP.NET C# applications.",
+        "Supported developers with troubleshooting and technical issues, and led project risk and issue identification and management.",
+        "Analyzed functional requirements and delivered design solutions using the latest .NET framework with MS SQL Server."
+      ],
+      "tech": [
+        "ASP.NET Core",
+        "ASP.NET Framework",
+        "C#",
+        "MS SQL Server",
+        "Azure DevOps",
+        "Angular 12",
+        "React 18",
+        "JavaScript",
+        "JSON",
+        "HTML5",
+        "CSS3",
+        "T-SQL"
+      ]
     }
   ]
 }
