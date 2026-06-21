@@ -1,0 +1,238 @@
+{
+  "name": "Milindkumar Patel",
+  "title": ".NET Developer & Data Engineer",
+  "summary": "• .NET Web/Application Developer with 5+ years of strong experience in all stages of advanced Development. • Knowledgeable in the user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of systems. • Equipped with diverse and promising skillset. Proficient in as assortment of technologies, including AWD BPM, SSIS, ASP.NET, .NET CORE Restful API, IBM BPM, JavaScript (Angular), and Microsoft SQL Server. • Able to effectively self-manage during independent projects, as well as collaborate in the team setting. Familiarity with Agile Scrum methodology.",
+  "contact": {
+    "email": "milindpatel4416@gmail.com",
+    "phone": "(647) 273-1722",
+    "github": "https://github.com/Milindpatel",
+    "location": "Toronto"
+  },
+  "experience": [
+    {
+      "title": "Lead Developer",
+      "company": "Rexall",
+      "location": "Toronto",
+      "startDate": "July 2022",
+      "endDate": "Present",
+      "bullets": [
+        "Worked in highly collaborative operations team to streamline the process of implementing",
+        "security confidential Azure cloud environment and introduced best practices for remediation.",
+        "Involved in setting up and configuring Microsoft Azure and AWS cloud computing platform",
+        "components.",
+        "Creating code drops/patches for deployment in pre-production and production environment",
+        "for applications within secure system.",
+        "Co-ordinate with external team members and other stake holders to understand the impact",
+        "of their changes to complete release work.",
+        "Performing code merge activities for different ASP.NET C# applications.",
+        "Helping  developers  to  resolve any  technical  issue,  troubleshooting,  project  Risk and  Issue",
+        "identification and management.",
+        "Analyze  functional requirements  and  provide  design  solution  with  latest  .NET  framework",
+        "with MS SQL database.",
+        "Tools and Tech: ASP.NET Core, ASP.NET Frameworks, C#, MS SQL Server, Azure DevOps, Angular",
+        "2+ (Angular 12), React 18, JavaScript, JSON, HTML5, CSS3, T-SQL"
+      ]
+    },
+    {
+      "title": ".NET Developer",
+      "company": "Speridian Technologies",
+      "location": "Toronto",
+      "startDate": "August 2021",
+      "endDate": "July 2022",
+      "bullets": [
+        "Involving  in  agile  methodology  and  undergone  in  all  phases  of  software  development  life",
+        "cycle and proposed solution to the business problem.",
+        "Design the automation process and SQL jobs to generate the data, based on the Rabbit MQ",
+        "integration.",
+        "Leverage latest technologies to Design and Developed web application with Angular 11 and",
+        ".NET 5 integration.",
+        "Involved in updating the Telerik Kendo UI controls for building the application enabling to",
+        "focus on value generating development tasks.",
+        "Involved   in   setting   up   and   configuring   Microsoft   Azure   cloud   computing   platform",
+        "components.",
+        "Involved in designing the stored procedure with SQL Triggers to set up the Audit log in the",
+        "system.",
+        "Tools and Tech: ASP.NET Core, ASP.NET Frameworks, C#, Angular 2+ (Angular 11), MS",
+        "SQL Server, Azure DevOps, JavaScript, JSON, HTML5, CSS3, T-SQL"
+      ]
+    },
+    {
+      "title": "Engineer, Engineering",
+      "company": "Invesco Enterprise Services",
+      "location": "Charlottetown",
+      "startDate": "March 2020",
+      "endDate": "August 2021",
+      "bullets": [
+        "Distribution",
+        "Frequently interact with Product Owners and Scrum Master to understand user stories and",
+        "workflow before construct or update the process flows through AWD BPM tool.",
+        "Design the automation process for data filtering through XML logics and Mobius Document",
+        "Direct.",
+        "Leverage modern  framework  and  tool like .NET for the backend  to build world  class user",
+        "interface for custom application.",
+        "Involved  in  creating  multiple  parameterized  stored  procedure  which  were  used  by  the",
+        "reports to get the data.",
+        "Worked  on  SSIS  package.  DTS  import-export  for  transferring  data  from  SQL  server  to",
+        "desired client-side location for further extraction.",
+        "created SSIS Reusable Packages to extract data from Multi formatted Flat files, Excel, XML",
+        "files into SQL Server.",
+        "Tools and Tech: ASP.NET, C#, AWD BPM, MS SQL Server, SQL Server Integration Services",
+        "(SSIS), Oracle, Jira confluence, JavaScript, JSON, HTML5, CSS3, T-SQL"
+      ]
+    },
+    {
+      "title": "Developer",
+      "company": "Bell Canada (MSI Corp)",
+      "location": "Toronto",
+      "startDate": "July 2019",
+      "endDate": "Dec 2019",
+      "bullets": [
+        "Working closely with business analysts to identify data requirements through blueprints for",
+        "each activity in the process diagrams (Visio Diagrams)",
+        "Providing analysis and design for automating the business process using IBM BPM 8.5 Tool.",
+        "Leverage  modern  JavaScript  frameworks  such  as  Angular and  ASP.NET  Core  for  the",
+        "backend to build world-class user interface for a web application.",
+        "Developing BPD on the business request and deploy in the testing environment.",
+        "Testing  workflow  and  validation  of  BPD,  performing  positive  and  negative  tests  and",
+        "comparing expected results with testing result logs (Manual testing and Automated testing)",
+        "Tools  and  Tech: IBM  BPM  8.5,  Oracle,  Jira  confluence,  Microsoft  Visio, HTML5,  CSS3,",
+        "JavaScript, Angular 2+, ASP.NET Core, C#, MS SQL Server"
+      ]
+    },
+    {
+      "title": "Sr. Software",
+      "company": "Zerothcode Inc.",
+      "location": "Toronto, Canada/Anand, India",
+      "startDate": "Dec 2015",
+      "endDate": "July 2019",
+      "bullets": [
+        "Developer",
+        "Worked as a productive and positive team member to design, code, test, report, and debug",
+        "operations.",
+        "Served  in  a  Client-facing  role  translating  business  requirements  into  viable  and  scalable",
+        "solutions.",
+        "Developed  School  ERP  software  to  help  schools  to  plan  how  to  use  their  resources  and",
+        "manage  processes  effectively  and  efficiently.  Reducing back-office work  by  creating  the",
+        "automation process.",
+        "Assist  in  scope  definition,  planning,  estimation  and  tracking  of  API  Development  and",
+        "Application Development.",
+        "Train  and  mentor  junior  IT  Members  and  lead  the  team  to  ensure  that  business  value  is",
+        "maximized and IT goal achieved.",
+        "Tools and Technologies: HTML5, CSS3, ASP.NET MVC, ASP.NET CORE Restful API, C#,",
+        "Angular 2+, MSSQL, JavaScript, Bootstrap3."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front End",
+      "items": [
+        "• Angular  2+",
+        "Bootstrap",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "ES6",
+      "items": [
+        "• CSS3",
+        "HTML5",
+        "XML"
+      ]
+    },
+    {
+      "category": "Back End",
+      "items": [
+        "• .NET   Core",
+        ".NET   Framework   4.x",
+        "ASP.NET MVC",
+        ".NET  CORE  Restful"
+      ]
+    },
+    {
+      "category": "API",
+      "items": [
+        "• C#",
+        "JSON"
+      ]
+    },
+    {
+      "category": "Business Process Management",
+      "items": [
+        "• AWD BPM",
+        "IBM BPM"
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        "• MSSQL Server",
+        "ORACLE"
+      ]
+    },
+    {
+      "category": "• SQL    Server    Integration    Services",
+      "items": [
+        "(SSIS)",
+        "T-SQL"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "items": [
+        "• Git",
+        "TFS (Microsoft)",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "SDLC",
+      "items": [
+        "• Agile    Methodology",
+        "BRD",
+        "JIRA"
+      ]
+    },
+    {
+      "category": "Azure DevOps",
+      "items": [
+        "• Object Oriented Programming",
+        "UML"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lambton College, Toronto",
+      "degree": "Post-Graduation (Mobile Application Design and",
+      "location": "Toronto, Canada",
+      "period": "Sep 16 - Apr 18",
+      "score": "3.8/4.0"
+    },
+    {
+      "institution": "A.D. Patel Institute of Technology (GTU)",
+      "degree": "Bachelor’s degree (Computer Engineering)",
+      "location": "Gujarat, India",
+      "period": "July 12 - May 16",
+      "score": "6.94/10"
+    }
+  ],
+  "certifications": [
+    "• AWS Certified Solution",
+    "Architect - Professional",
+    "• AWS Certified Developer",
+    "- Associate"
+  ],
+  "projects": [
+    {
+      "name": "Mobile Blood Bank",
+      "description": "A.D. PATEL Institute of Tech",
+      "technologies": [
+        "Android (JAVA)",
+        "MySQL",
+        "ASP.NET"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-06-21T20:36:32.469Z"
+}

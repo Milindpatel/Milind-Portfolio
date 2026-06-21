@@ -1,0 +1,31 @@
+{
+  "name": "milind-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run parse && vite build",
+    "preview": "vite preview",
+    "parse": "tsx scripts/parse-resume.ts",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  }
+}

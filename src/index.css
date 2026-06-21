@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-500;
+  }
+
+  ::-webkit-scrollbar       { width: 6px; }
+  ::-webkit-scrollbar-track { background: #030712; }
+  ::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 3px; }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+  .section-pad {
+    @apply py-24 px-4 sm:px-6;
+  }
+}
