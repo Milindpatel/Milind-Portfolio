@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "parse": "tsx scripts/parse-resume.ts",
     "hash": "tsx scripts/hash-password.ts",
+    "resume": "tsx scripts/generate-resume.ts",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
