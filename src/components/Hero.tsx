@@ -55,10 +55,15 @@ export default function Hero({ name, roles, contact, available }: HeroProps) {
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-28 w-full">
 
-        {available && (
+        {available ? (
           <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-10">
             <span className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" aria-hidden="true" />
             Available for opportunities
+          </div>
+        ) : (
+          <div className="inline-flex items-center gap-2 bg-gray-500/10 border border-gray-500/20 text-gray-400 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-10">
+            <span className="w-1.5 h-1.5 bg-gray-500 rounded-full" aria-hidden="true" />
+            Not currently available
           </div>
         )}
 
