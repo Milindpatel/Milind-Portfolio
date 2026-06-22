@@ -1,4 +1,4 @@
-﻿import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView'
 import type { Contact as ContactType } from '../types/portfolio'
 
 interface ContactProps {
@@ -98,7 +98,7 @@ export default function Contact({ contact }: ContactProps) {
         )}
 
         <p className="text-faint text-xs mt-6">
-          Portfolio auto-generated from resume Â· last updated {new Date().getFullYear()}
+          Portfolio auto-generated from resume · last updated {new Date().getFullYear()}
         </p>
       </div>
     </section>

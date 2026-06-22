@@ -1,4 +1,4 @@
-﻿import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView'
 import type { Education as EducationType } from '../types/portfolio'
 
 interface EducationProps {
@@ -42,7 +42,7 @@ export default function Education({ education, certifications }: EducationProps)
                   <h3 className="text-content font-semibold text-sm leading-snug mt-1">{ed.degree}</h3>
                   <p className="text-blue-400 text-sm">{ed.institution}</p>
                   <p className="text-faint text-xs mt-auto">
-                    {[ed.location, ed.period].filter(Boolean).join(' Â· ')}
+                    {[ed.location, ed.period].filter(Boolean).join(' · ')}
                   </p>
                 </li>
               ))}
@@ -61,7 +61,7 @@ export default function Education({ education, certifications }: EducationProps)
               <ul className="space-y-3" role="list">
                 {certifications.map((cert, i) => (
                   <li key={i} className="flex gap-2.5 text-muted text-sm leading-snug">
-                    <span className="text-blue-500 mt-0.5 shrink-0" aria-hidden="true">âœ¦</span>
+                    <span className="text-blue-500 mt-0.5 shrink-0" aria-hidden="true">✦</span>
                     {cert}
                   </li>
                 ))}

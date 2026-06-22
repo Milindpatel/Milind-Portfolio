@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 // Floating button that doubles as a reading-progress indicator: a ring fills
 // as the page scrolls, and clicking scrolls smoothly back to the top.

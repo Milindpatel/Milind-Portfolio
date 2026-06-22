@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import { verifyCredentials, setAdminSession, ADMIN_USER } from '../lib/auth'
 
 interface AdminLoginProps {
@@ -91,7 +91,7 @@ export default function AdminLogin({ onClose, onSuccess }: AdminLoginProps) {
             disabled={busy}
             className="w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-60 text-content font-semibold text-sm rounded-lg px-4 py-2.5 transition-colors"
           >
-            {busy ? 'Signing inâ€¦' : 'Sign In'}
+            {busy ? 'Signing in…' : 'Sign In'}
           </button>
         </form>
       </div>

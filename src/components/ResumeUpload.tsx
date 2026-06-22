@@ -1,4 +1,4 @@
-﻿import { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import type { PortfolioData } from '../types/portfolio'
 import { parseResumeText, applyOverrides } from '../lib/parsePortfolio'
 import overrides from '../data/overrides.json'
@@ -25,7 +25,7 @@ export default function ResumeUpload({ onUpdate, isCustom, onReset }: ResumeUplo
       setStatus('error'); setMessage('Only PDF or DOCX files are supported.')
       return
     }
-    setStatus('parsing'); setMessage('Reading and parsing your resumeâ€¦')
+    setStatus('parsing'); setMessage('Reading and parsing your resume…')
     try {
       // Heavy PDF/DOCX libraries are loaded on demand to keep the initial bundle small.
       const { readResumeFile } = await import('../lib/readResumeFile')
@@ -39,7 +39,7 @@ export default function ResumeUpload({ onUpdate, isCustom, onReset }: ResumeUplo
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
       onUpdate(data)
       setStatus('done')
-      setMessage(`Updated from "${file.name}" â€” ${data.experience.length} roles, ${data.skills.length} skill groups.`)
+      setMessage(`Updated from "${file.name}" — ${data.experience.length} roles, ${data.skills.length} skill groups.`)
     } catch (err) {
       setStatus('error')
       setMessage(err instanceof Error ? err.message : 'Failed to parse the resume.')
@@ -70,7 +70,7 @@ export default function ResumeUpload({ onUpdate, isCustom, onReset }: ResumeUplo
           <div className="flex items-center justify-between mb-4">
             <div>
               <h3 className="font-semibold text-sm">Update from Resume</h3>
-              <p className="text-muted text-xs mt-0.5">Parsed live in your browser â€” instantly updates this site</p>
+              <p className="text-muted text-xs mt-0.5">Parsed live in your browser — instantly updates this site</p>
             </div>
             <button
               onClick={() => setOpen(false)}

@@ -1,4 +1,4 @@
-﻿import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView'
 import type { Experience as ExperienceType } from '../types/portfolio'
 
 interface ExperienceProps {
@@ -23,20 +23,20 @@ function ExperienceItem({ job, index }: { job: ExperienceType; index: number }) 
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
           <h3 className="text-content font-semibold text-lg">{job.title}</h3>
           <span className="text-xs text-faint whitespace-nowrap font-mono">
-            {job.startDate} â€” {job.endDate}
+            {job.startDate} — {job.endDate}
           </span>
         </div>
 
         <p className="text-blue-400 text-sm font-medium mb-4">
           {job.company}
-          {job.location && <span className="text-faint font-normal"> Â· {job.location}</span>}
+          {job.location && <span className="text-faint font-normal"> · {job.location}</span>}
         </p>
 
         {job.bullets.length > 0 && (
           <ul className="space-y-2" aria-label={`Responsibilities at ${job.company}`}>
             {job.bullets.map((b, j) => (
               <li key={j} className="flex gap-2.5 text-muted text-sm leading-relaxed">
-                <span className="text-blue-500 mt-0.5 shrink-0" aria-hidden="true">â–¸</span>
+                <span className="text-blue-500 mt-0.5 shrink-0" aria-hidden="true">▸</span>
                 {b}
               </li>
             ))}

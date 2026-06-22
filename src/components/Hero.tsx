@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import type { Contact } from '../types/portfolio'
 
 interface HeroProps {

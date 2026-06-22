@@ -1,4 +1,4 @@
-﻿import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView'
 import type { SkillGroup } from '../types/portfolio'
 
 interface SkillsProps {

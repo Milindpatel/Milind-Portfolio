@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import builtIn from './data/portfolio.json'
 import type { PortfolioData } from './types/portfolio'
 import Layout from './components/Layout'
@@ -40,12 +40,12 @@ export default function App() {
   const [loginOpen, setLoginOpen] = useState(false)
   const [available, setAvailable] = useState(() => loadAvailable(defaultData.available ?? true))
 
-  // Typewriter roles come straight from the rÃ©sumÃ©'s job titles.
+  // Typewriter roles come straight from the résumé's job titles.
   const roles = Array.from(
     new Set([portfolio.title, ...portfolio.experience.map(e => e.title)].filter(Boolean)),
   )
 
-  // Stats derived from the rÃ©sumÃ© so they update automatically with new data.
+  // Stats derived from the résumé so they update automatically with new data.
   const startYears = portfolio.experience
     .map(e => Number(e.startDate.match(/\d{4}/)?.[0]))
     .filter(y => !Number.isNaN(y))

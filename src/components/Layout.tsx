@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import ThemeToggle from './ThemeToggle'
 
 interface LayoutProps {
@@ -119,10 +119,10 @@ export default function Layout({ name, links, children, footerExtra }: LayoutPro
 
       <footer className="bg-app border-t border-line/10 text-faint text-sm py-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p>Â© {new Date().getFullYear()} {name}</p>
+          <p>© {new Date().getFullYear()} {name}</p>
           <div className="flex items-center gap-4">
-            <p className="text-faint">Built with React Â· Vite Â· Tailwind CSS</p>
-            {footerExtra && <span className="text-faint" aria-hidden="true">Â·</span>}
+            <p className="text-faint">Built with React · Vite · Tailwind CSS</p>
+            {footerExtra && <span className="text-faint" aria-hidden="true">·</span>}
             {footerExtra}
           </div>
         </div>

@@ -1,4 +1,4 @@
-﻿import { useInView } from '../hooks/useInView'
+import { useInView } from '../hooks/useInView'
 import type { Project } from '../types/portfolio'
 
 interface ProjectsProps {
