@@ -12,6 +12,7 @@ import Contact from './components/Contact'
 import ResumeUpload, { STORAGE_KEY } from './components/ResumeUpload'
 import AdminLogin from './components/AdminLogin'
 import BackToTop from './components/BackToTop'
+import AiChat from './components/AiChat'
 import { isAdminSession, setAdminSession } from './lib/auth'
 
 const defaultData = builtIn as PortfolioData
@@ -116,6 +117,7 @@ export default function App() {
       <Contact contact={portfolio.contact} />
 
       <BackToTop />
+      <AiChat portfolio={portfolio} />
 
       {isAdmin && (
         <ResumeUpload
